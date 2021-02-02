@@ -6,12 +6,12 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.0.3.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath /> 
 	</parent>
 	<groupId>com.hcl.vamsi</groupId>
 	<artifactId>GeneralProgExec</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<version>0.0.89-SNAPSHOTS</version>
+	
 
 	<name>GeneralProgExec</name>
 	<description>GeneralProgExec project for Spring Boot</description>
