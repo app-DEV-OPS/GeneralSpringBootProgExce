@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.hcl.vamsi</groupId>
 	<artifactId>GeneralProgExec</artifactId>
-	<version>0.0.89-SNAPSHOTS</version>
+	<version>0.0.9-SNAPSHOTS</version>
 	
 
 	<name>GeneralProgExec</name>
