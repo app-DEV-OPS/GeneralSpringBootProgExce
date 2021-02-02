@@ -59,8 +59,10 @@
 		</dependency>
 	<distributionManagement>
     <snapshotRepository>
+	    <uniqueVersion>false</uniqueVersion>
        <id>nexus</id>
        <url>http://35.238.138.203:8081/nexus/content/repositories/snapshots</url>
+	    <layout>default</layout>
     </snapshotRepository>
     <repository>
 <id>nexus</id>
