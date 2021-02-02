@@ -85,16 +85,7 @@
 			<version>7.41.2</version>
 		</dependency>
 	</dependencies>
-	
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
-<distributionManagement>
+	<distributionManagement>
 	
 	 <snapshotRepository>
        <id>nexus</id>
@@ -106,5 +97,14 @@
 <url>http://35.238.138.203:8081/nexus/content/repositories/releases</url>
     </repository>
 	</distributionManagement>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
 
 </project>
