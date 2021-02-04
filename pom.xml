@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.hcl.vamsi</groupId>
+	<groupId>com.hcl.adhi2021</groupId>
 	<artifactId>GeneralProgExec</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -51,6 +51,16 @@
 			<artifactId>spring-boot-starter-tomcat</artifactId>			
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+        	<snapshotRepository>
+       			<id>nexus</id>
+       			<url>http://35.154.90.22:8081/repository/maven-snapshots/</url>
+    		</snapshotRepository>
+    		<repository>
+       			<id>nexus</id>
+       			<url>http://35.154.90.22:8081/repository/maven-releases/</url>
+   		 </repository>
+  	</distributionManagement>
 
 	<build>
 		<plugins>
