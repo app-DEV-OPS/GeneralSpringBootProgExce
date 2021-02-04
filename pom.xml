@@ -6,7 +6,7 @@
 	<groupId>com.hcl.adhi2021</groupId>
 	<artifactId>GeneralProgExec</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>GeneralProgExec</name>
 	<description>GeneralProgExec project for Spring Boot</description>
